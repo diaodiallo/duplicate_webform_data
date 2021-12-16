@@ -1,0 +1,16 @@
+duplicate_webform_data.duplicate:
+      path: 'admin/config/duplicate_webform_data/duplicate'
+      defaults:
+        _form: '\Drupal\duplicate_webform_data\Form\DuplicateWebformDataDuplicateForm'
+        _title: 'Data duplication'
+      requirements:
+        _permission: 'administer site configuration'
+
+duplicate_webform_data.settings:
+  path: 'admin/config/duplicate-setting'
+  defaults:
+    _form: 'Drupal\duplicate_webform_data\Form\DuplicateWebformDataSettingForm'
+    _title: 'Data duplication settings'
+  requirements:
+    _permission: 'administer site configuration'
+

@@ -1,0 +1,5 @@
+name: 'Duplicate webform data'
+type: module
+description: 'Duplicate webform data'
+core_version_requirement: ^8 || ^9
+package: 'In Supply Health'

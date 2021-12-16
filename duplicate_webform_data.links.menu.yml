@@ -1,0 +1,5 @@
+duplicate_webform_data.settings:
+  title: Duplicating data
+  description: Configure and duplicate webform data.
+  route_name: duplicate_webform_data.settings
+  parent: system.admin_config

@@ -1,0 +1,6 @@
+duplicate_webform_data.duplicate:
+      title: Data duplication
+      description: Duplicate webform data
+      route_name: duplicate_webform_data.duplicate
+      appears_on:
+        - duplicate_webform_data.settings
